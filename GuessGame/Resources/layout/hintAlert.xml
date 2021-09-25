@@ -1,0 +1,33 @@
+﻿<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@android:color/white">
+     <EditText
+        android:inputType="text"
+        android:hint=" Enter Word"
+        android:textSize="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="100px"
+        android:layout_marginRight="100px"
+         android:minHeight="50dp"
+        android:layout_marginTop="5dp"
+        android:textColor="@android:color/black"        
+        android:id="@+id/wordAlt" />
+    <EditText
+        android:inputType="text"
+        android:hint=" Enter Hint"
+        android:textSize="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="100px"
+        android:layout_marginRight="100px"
+         android:minHeight="50dp"
+        android:layout_marginTop="3dp"
+        android:layout_marginBottom="3dp"
+        android:textColor="@android:color/black"        
+        android:id="@+id/hintAlt" />
+   
+    </LinearLayout>

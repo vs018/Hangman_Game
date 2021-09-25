@@ -1,0 +1,65 @@
+﻿<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background1"
+    >
+
+      <ImageView
+        android:scaleType="fitCenter"
+        android:src="@drawable/logo"
+        android:layout_width="match_parent"
+        android:layout_height="270px"
+      android:layout_marginLeft="20px"
+      android:layout_marginRight="20px"
+        android:layout_marginTop="255px"
+        android:id="@+id/imageView4" />
+
+  
+    <Button
+        android:textStyle="bold"
+      android:textColor="#E9E9E9"
+       android:background="@drawable/button"
+       android:paddingTop="14dp"
+        android:paddingBottom="18dp"
+        android:textSize="24dp"
+        android:layout_marginLeft="80px"
+        android:layout_marginRight="80px"
+        android:text="Sigle PLayer"
+        android:layout_width="match_parent"
+        android:layout_height="160px"
+        android:layout_marginTop="270dp"
+         android:id="@+id/btnOne"/>
+ 
+        <Button
+        android:textStyle="bold"
+      android:textColor="#E9E9E9"
+       android:background="@drawable/button"
+        android:textSize="24dp"
+        android:layout_marginLeft="80px"
+        android:layout_marginRight="80px"
+        android:text="Two Player"
+        android:layout_width="match_parent"
+       android:paddingTop="14dp"
+        android:paddingBottom="18dp"
+        android:layout_height="160px"
+        android:layout_marginTop="345dp"
+        android:id="@+id/btnTwo"
+    />
+   <Button
+              android:textSize="24dp"
+        android:textStyle="bold"
+      android:textColor="#E9E9E9"
+      android:background="@drawable/button"
+               android:layout_marginLeft="80px"
+              android:layout_marginRight="80px"
+       android:paddingTop="14dp"
+        android:paddingBottom="18dp"
+              android:text="Setting"
+              android:layout_width="match_parent"
+        android:layout_height="160px"
+              android:layout_marginTop="420dp"
+              android:id="@+id/btnWords"/>
+
+</RelativeLayout>

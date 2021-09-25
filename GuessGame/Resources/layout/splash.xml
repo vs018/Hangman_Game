@@ -1,0 +1,30 @@
+﻿ 
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#2a4762"
+    >
+    
+      <ImageView
+        android:scaleType="fitCenter"
+        android:src="@drawable/logo"
+        android:layout_width="match_parent"
+        android:layout_height="265px"
+      android:layout_marginLeft="15px"
+      android:layout_marginRight="15px"
+        android:layout_marginTop="475px"
+        android:id="@+id/imageView4" />
+    
+        <com.felipecsl.gifimageview.library.GifImageView
+        android:id="@+id/gifImageView1"
+        android:scaleType="fitStart"
+        android:layout_width="match_parent"
+        android:layout_height="720px"
+      android:layout_marginLeft="50px"
+      android:layout_marginRight="50px"
+        android:layout_marginTop="750px"
+    />
+     
+   </RelativeLayout>

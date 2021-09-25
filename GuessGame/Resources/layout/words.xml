@@ -1,0 +1,119 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:minWidth="25px"
+    android:minHeight="25px"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/linearLayout1" 
+      android:layout_gravity="center_horizontal"
+    android:gravity="center_horizontal"
+        android:background="@drawable/background2"
+  >
+    <ImageView
+       
+        android:scaleType="fitCenter"
+        android:src="@drawable/hint"
+        android:layout_width="220px"
+        android:layout_height="220px"
+        android:layout_marginTop="20px"
+        android:id="@+id/hintIMG" />
+
+    <Button
+            android:tag=""
+        android:textSize="15dp"
+        android:id="@+id/btnBrowse"
+        android:background="#2a4762"
+        android:layout_width="550px"
+        android:textColor="#E9E9E9"
+        android:layout_height="110px"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        android:text="Select Image" 
+        android:textStyle="bold"
+        android:layout_marginTop="4dp"
+        />
+     
+     <EditText
+       android:textColor="#323232"
+        android:textColorHint="#585858"
+         android:hint=" Enter Word"
+        android:textSize="21dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50px"
+        android:layout_marginRight="50px"
+         android:minHeight="50dp"
+        android:layout_marginTop="10px"
+        android:inputType="text"
+        android:id="@+id/wordTxt" />
+
+        <EditText
+        android:inputType="text"
+        android:hint=" Enter Hint"
+        android:textColor="#323232"
+        android:textColorHint="#585858"
+        android:textSize="21dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50px"
+        android:layout_marginRight="50px"
+         android:minHeight="50dp"
+        android:layout_marginTop="3dp"
+        android:id="@+id/hintTxt" />
+      <LinearLayout
+        android:layout_gravity="center_horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:textSize="17dp"
+            android:layout_marginLeft="4dp"     
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:background="@drawable/button"
+            android:id="@+id/btnAdd"
+            android:layout_width="wrap_content"
+            android:layout_height="120px"
+            android:textColor="#E9E9E9"
+            android:textStyle="bold"
+            android:text="Add"
+            android:layout_weight="1" />
+        <Button
+            android:textSize="17dp"
+            android:id="@+id/btnEdit"
+           android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:textStyle="bold"
+      android:textColor="#E9E9E9"
+            android:layout_marginLeft="3dp"
+            android:layout_width="wrap_content"
+            android:layout_height="120px"
+            android:text="Update"
+       android:background="@drawable/button"
+            android:layout_weight="1" />
+        <Button
+            android:textSize="17dp"
+            android:id="@+id/btnRemove"
+       android:background="@drawable/button"
+            android:layout_width="wrap_content"
+      android:textColor="#E9E9E9"
+            android:layout_height="120px"
+       android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+                   android:layout_marginRight="4dp"
+        android:text="Remove" 
+        android:textStyle="bold"
+            android:layout_marginLeft="3dp"
+            android:layout_weight="1" />
+    </LinearLayout>
+       
+   <ListView
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/listView1" />
+
+</LinearLayout>
